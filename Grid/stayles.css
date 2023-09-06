@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.centered-box {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
